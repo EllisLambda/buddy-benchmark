@@ -21,6 +21,7 @@
 #include <benchmark/benchmark.h>
 
 void generateResultMLIRLinpackCDaxpy();
+void generateResultMLIRLinpackCMatgen();
 
 // Run benchmarks.
 int main(int argc, char **argv) {
@@ -30,5 +31,6 @@ int main(int argc, char **argv) {
 
   // Generate result.
   generateResultMLIRLinpackCDaxpy();
+  generateResultMLIRLinpackCMatgen();
   return 0;
 }

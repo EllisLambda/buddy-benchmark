@@ -1,0 +1,14 @@
+# Target labels
+ project_googlebenchmark
+# Source files and their labels
+/home/sym/buddy-benchmark/benchmarks/CMakeFiles/project_googlebenchmark
+/home/sym/buddy-benchmark/benchmarks/CMakeFiles/project_googlebenchmark.rule
+/home/sym/buddy-benchmark/benchmarks/CMakeFiles/project_googlebenchmark-complete.rule
+/home/sym/buddy-benchmark/benchmarks/vendor/benchmark/src/project_googlebenchmark-stamp/project_googlebenchmark-build.rule
+/home/sym/buddy-benchmark/benchmarks/vendor/benchmark/src/project_googlebenchmark-stamp/project_googlebenchmark-configure.rule
+/home/sym/buddy-benchmark/benchmarks/vendor/benchmark/src/project_googlebenchmark-stamp/project_googlebenchmark-download.rule
+/home/sym/buddy-benchmark/benchmarks/vendor/benchmark/src/project_googlebenchmark-stamp/project_googlebenchmark-install.rule
+/home/sym/buddy-benchmark/benchmarks/vendor/benchmark/src/project_googlebenchmark-stamp/project_googlebenchmark-mkdir.rule
+/home/sym/buddy-benchmark/benchmarks/vendor/benchmark/src/project_googlebenchmark-stamp/project_googlebenchmark-patch.rule
+/home/sym/buddy-benchmark/benchmarks/vendor/benchmark/src/project_googlebenchmark-stamp/project_googlebenchmark-test.rule
+/home/sym/buddy-benchmark/benchmarks/vendor/benchmark/src/project_googlebenchmark-stamp/project_googlebenchmark-update.rule

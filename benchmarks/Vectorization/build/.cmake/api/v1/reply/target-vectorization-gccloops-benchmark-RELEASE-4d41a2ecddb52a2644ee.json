@@ -1,0 +1,450 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "gccloops/vectorization-gccloops-benchmark"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"gccloops/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 447,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 471,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx1::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx2a::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx2b::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx3::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx4a::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx4b::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx4c::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx7::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx8::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx9::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx10a::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx10b::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx11::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx12::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx13::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx14::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx21::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx23::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx24::@eabbff8b2e08475850e2"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "MLIRGccLoopsEx25::@eabbff8b2e08475850e2"
+		}
+	],
+	"id" : "vectorization-gccloops-benchmark::@eabbff8b2e08475850e2",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/home/sym/buddy-benchmark/benchmarks/Vectorization/build/gccloops",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lGoogleBenchmark",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx1.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx2a.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx2b.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx3.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx4a.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx4b.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx4c.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx7.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx8.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx9.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx10a.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx10b.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx11.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx12.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx13.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx14.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx21.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx23.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx24.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "gccloops/libMLIRGccLoopsEx25.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "vectorization-gccloops-benchmark",
+	"nameOnDisk" : "vectorization-gccloops-benchmark",
+	"paths" : 
+	{
+		"build" : "gccloops",
+		"source" : "gccloops"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/Main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx1Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx2aBenchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx2bBenchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx3Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx4aBenchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx4bBenchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx4cBenchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx7Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx8Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx9Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx10aBenchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx10bBenchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx11Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx12Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx13Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx14Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx21Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx23Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx24Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gccloops/MLIRGccLoopsEx25Benchmark.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

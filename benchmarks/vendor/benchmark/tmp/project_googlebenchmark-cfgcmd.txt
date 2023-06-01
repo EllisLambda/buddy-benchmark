@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/sym/buddy-benchmark/benchmarks/vendor/benchmark;-DCMAKE_BUILD_TYPE:STRING=DEBUG;-DBENCHMARK_ENABLE_TESTING=OFF;-GNinja;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'

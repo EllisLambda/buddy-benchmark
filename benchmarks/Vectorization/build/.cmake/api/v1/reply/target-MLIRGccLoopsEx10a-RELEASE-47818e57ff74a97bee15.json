@@ -1,0 +1,74 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "gccloops/libMLIRGccLoopsEx10a.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library"
+		],
+		"files" : 
+		[
+			"gccloops/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 241,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "MLIRGccLoopsEx10a::@eabbff8b2e08475850e2",
+	"name" : "MLIRGccLoopsEx10a",
+	"nameOnDisk" : "libMLIRGccLoopsEx10a.a",
+	"paths" : 
+	{
+		"build" : "gccloops",
+		"source" : "gccloops"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/gccloops/mlir-gccloopsex10a.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/gccloops/mlir-gccloopsex10a.o.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,164 @@
+[
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o CMakeFiles/vectorization-matrix-benchmark.dir/Main.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/Main.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/Main.cpp",
+  "output": "CMakeFiles/vectorization-matrix-benchmark.dir/Main.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o CMakeFiles/vectorization-matrix-benchmark.dir/MLIRMatMulBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/MLIRMatMulBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/MLIRMatMulBenchmark.cpp",
+  "output": "CMakeFiles/vectorization-matrix-benchmark.dir/MLIRMatMulBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o CMakeFiles/vectorization-matrix-benchmark.dir/MLIRMatVecBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/MLIRMatVecBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/MLIRMatVecBenchmark.cpp",
+  "output": "CMakeFiles/vectorization-matrix-benchmark.dir/MLIRMatVecBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/Main.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/Main.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/Main.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/Main.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx1Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx1Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx1Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx1Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx2aBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx2aBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx2aBenchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx2aBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx2bBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx2bBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx2bBenchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx2bBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx3Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx3Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx3Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx3Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx4aBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx4aBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx4aBenchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx4aBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx4bBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx4bBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx4bBenchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx4bBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx4cBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx4cBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx4cBenchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx4cBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx7Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx7Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx7Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx7Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx8Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx8Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx8Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx8Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx9Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx9Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx9Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx9Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx10aBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx10aBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx10aBenchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx10aBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx10bBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx10bBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx10bBenchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx10bBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx11Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx11Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx11Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx11Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx12Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx12Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx12Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx12Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx13Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx13Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx13Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx13Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx14Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx14Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx14Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx14Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx21Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx21Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx21Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx21Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx23Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx23Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx23Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx23Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx24Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx24Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx24Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx24Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -O3 -DNDEBUG -o gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx25Benchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx25Benchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/gccloops/MLIRGccLoopsEx25Benchmark.cpp",
+  "output": "gccloops/CMakeFiles/vectorization-gccloops-benchmark.dir/MLIRGccLoopsEx25Benchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -I/home/sym/buddy-mlir/frontend/Interfaces -O3 -DNDEBUG -o linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/Main.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/Main.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/Main.cpp",
+  "output": "linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/Main.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -I/home/sym/buddy-mlir/frontend/Interfaces -O3 -DNDEBUG -o linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackCDaxpyBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackCDaxpyBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackCDaxpyBenchmark.cpp",
+  "output": "linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackCDaxpyBenchmark.o"
+},
+{
+  "directory": "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+  "command": "/usr/bin/clang++ -I/home/sym/buddy-mlir/frontend/Interfaces -O3 -DNDEBUG -o linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackMatgenBenchmark.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackMatgenBenchmark.cpp",
+  "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackMatgenBenchmark.cpp",
+  "output": "linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackMatgenBenchmark.o"
+}
+]

@@ -2,6 +2,9 @@
 # MLIR SCF Dialect linpackc Operation + Upstream Lowering Passes
 #-------------------------------------------------------------------------------
 
+include_directories("/home/sym/buddy-mlir/frontend/Interfaces/")
+link_directories("/home/sym/buddy-benchmark/build")
+
 add_custom_command(OUTPUT mlir-linpackcdaxpyrollf32.o
   COMMAND ${LLVM_MLIR_BINARY_DIR}/mlir-opt
           ${BUDDY_SOURCE_DIR}/benchmarks/Vectorization/linpackc/MLIRLinpackCDaxpyRollF32.mlir 
@@ -74,6 +77,24 @@ add_custom_command(OUTPUT mlir-linpackcdaxpyunrollf32.o
 add_library(MLIRLinpackDaxpyUnrollF32 STATIC mlir-linpackcdaxpyunrollf32.o)
 set_target_properties(MLIRLinpackDaxpyUnrollF32 PROPERTIES LINKER_LANGUAGE CXX)
 
+add_custom_command(OUTPUT mlir-linpackcmatgenf64.o
+  COMMAND ${LLVM_MLIR_BINARY_DIR}/mlir-opt
+          ${BUDDY_SOURCE_DIR}/benchmarks/Vectorization/linpackc/MLIRLinpackCMatgenF64.mlir 
+            -convert-scf-to-cf
+            -expand-strided-metadata
+            -convert-arith-to-llvm
+            -llvm-request-c-wrappers
+            -finalize-memref-to-llvm
+            -convert-func-to-llvm 
+            -reconcile-unrealized-casts | 
+          ${LLVM_MLIR_BINARY_DIR}/mlir-translate --mlir-to-llvmir |
+          ${LLVM_MLIR_BINARY_DIR}/llc -mtriple=${BUDDY_OPT_TRIPLE} 
+            -mattr=${BUDDY_OPT_ATTR} --filetype=obj 
+            -o ${BUDDY_BINARY_DIR}/../benchmarks/Vectorization/linpackc/mlir-linpackcmatgenf64.o
+)
+add_library(MLIRLinpackCMatgenF64 STATIC mlir-linpackcmatgenf64.o)
+set_target_properties(MLIRLinpackCMatgenF64 PROPERTIES LINKER_LANGUAGE CXX)
+
 #-------------------------------------------------------------------------------
 # Vectorization Benchmark Targets
 #-------------------------------------------------------------------------------
@@ -81,6 +102,7 @@ set_target_properties(MLIRLinpackDaxpyUnrollF32 PROPERTIES LINKER_LANGUAGE CXX)
 add_executable(vectorization-linpackc-benchmark
   Main.cpp
   MLIRLinpackCDaxpyBenchmark.cpp
+  MLIRLinpackMatgenBenchmark.cpp
   )
 
 target_link_libraries(vectorization-linpackc-benchmark
@@ -89,4 +111,5 @@ target_link_libraries(vectorization-linpackc-benchmark
   MLIRLinpackDaxpyRollF64
   MLIRLinpackDaxpyUnrollF32
   MLIRLinpackDaxpyUnrollF64
+  MLIRLinpackCMatgenF64
   )

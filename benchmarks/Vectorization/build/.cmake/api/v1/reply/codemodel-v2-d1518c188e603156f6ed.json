@@ -1,0 +1,344 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RELEASE-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						25,
+						26,
+						29
+					]
+				},
+				{
+					"build" : "gccloops",
+					"jsonFile" : "directory-gccloops-RELEASE-090fe546e3d0991ec172.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gccloops",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						27
+					]
+				},
+				{
+					"build" : "linpackc",
+					"jsonFile" : "directory-linpackc-RELEASE-dd7699114a7f241abcff.json",
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "linpackc",
+					"targetIndexes" : 
+					[
+						20,
+						21,
+						22,
+						23,
+						24,
+						28
+					]
+				}
+			],
+			"name" : "RELEASE",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx1::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx1-RELEASE-86db8c5490b47c057d78.json",
+					"name" : "MLIRGccLoopsEx1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx10a::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx10a-RELEASE-47818e57ff74a97bee15.json",
+					"name" : "MLIRGccLoopsEx10a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx10b::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx10b-RELEASE-5ee848de94e623bb578e.json",
+					"name" : "MLIRGccLoopsEx10b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx11::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx11-RELEASE-04a1110bb8f57e1b694c.json",
+					"name" : "MLIRGccLoopsEx11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx12::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx12-RELEASE-e487742be4c63b71aac9.json",
+					"name" : "MLIRGccLoopsEx12",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx13::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx13-RELEASE-18afc4da0ca864227c8a.json",
+					"name" : "MLIRGccLoopsEx13",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx14::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx14-RELEASE-03b0c56054812993c166.json",
+					"name" : "MLIRGccLoopsEx14",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx21::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx21-RELEASE-05a13c1bc751c21639b9.json",
+					"name" : "MLIRGccLoopsEx21",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx23::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx23-RELEASE-84457c944c5ad38753a5.json",
+					"name" : "MLIRGccLoopsEx23",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx24::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx24-RELEASE-12b2bc99b0d6713baf66.json",
+					"name" : "MLIRGccLoopsEx24",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx25::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx25-RELEASE-c1918f04ea63d95b59d6.json",
+					"name" : "MLIRGccLoopsEx25",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx2a::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx2a-RELEASE-2e4ef8eaa099b804d81f.json",
+					"name" : "MLIRGccLoopsEx2a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx2b::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx2b-RELEASE-e912c44dc51f43f77edd.json",
+					"name" : "MLIRGccLoopsEx2b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx3::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx3-RELEASE-2c9fd9563c7595c37a4e.json",
+					"name" : "MLIRGccLoopsEx3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx4a::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx4a-RELEASE-30521d24d3f7383662b9.json",
+					"name" : "MLIRGccLoopsEx4a",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx4b::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx4b-RELEASE-ebf3084bfbf7d025b359.json",
+					"name" : "MLIRGccLoopsEx4b",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx4c::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx4c-RELEASE-987e5385ae27e0e71a36.json",
+					"name" : "MLIRGccLoopsEx4c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx7::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx7-RELEASE-b7b802a39cf305aafd37.json",
+					"name" : "MLIRGccLoopsEx7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx8::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx8-RELEASE-3905307003f0102da299.json",
+					"name" : "MLIRGccLoopsEx8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MLIRGccLoopsEx9::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-MLIRGccLoopsEx9-RELEASE-2be9a5740cd7b2b2f87e.json",
+					"name" : "MLIRGccLoopsEx9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MLIRLinpackCMatgenF64::@d3eb104d54a513e03749",
+					"jsonFile" : "target-MLIRLinpackCMatgenF64-RELEASE-3d736b0d8191f65ec264.json",
+					"name" : "MLIRLinpackCMatgenF64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MLIRLinpackDaxpyRollF32::@d3eb104d54a513e03749",
+					"jsonFile" : "target-MLIRLinpackDaxpyRollF32-RELEASE-2dfce510c74d27f75876.json",
+					"name" : "MLIRLinpackDaxpyRollF32",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MLIRLinpackDaxpyRollF64::@d3eb104d54a513e03749",
+					"jsonFile" : "target-MLIRLinpackDaxpyRollF64-RELEASE-def03c020e0a2d4e078d.json",
+					"name" : "MLIRLinpackDaxpyRollF64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MLIRLinpackDaxpyUnrollF32::@d3eb104d54a513e03749",
+					"jsonFile" : "target-MLIRLinpackDaxpyUnrollF32-RELEASE-60986af2a994036f41a5.json",
+					"name" : "MLIRLinpackDaxpyUnrollF32",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "MLIRLinpackDaxpyUnrollF64::@d3eb104d54a513e03749",
+					"jsonFile" : "target-MLIRLinpackDaxpyUnrollF64-RELEASE-45fb857f49e53e766511.json",
+					"name" : "MLIRLinpackDaxpyUnrollF64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MLIRMatMul::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MLIRMatMul-RELEASE-84d9c81a299326a6abde.json",
+					"name" : "MLIRMatMul",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MLIRMatVec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MLIRMatVec-RELEASE-520c329277d87059a698.json",
+					"name" : "MLIRMatVec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vectorization-gccloops-benchmark::@eabbff8b2e08475850e2",
+					"jsonFile" : "target-vectorization-gccloops-benchmark-RELEASE-4d41a2ecddb52a2644ee.json",
+					"name" : "vectorization-gccloops-benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vectorization-linpackc-benchmark::@d3eb104d54a513e03749",
+					"jsonFile" : "target-vectorization-linpackc-benchmark-RELEASE-e1858d595779b427c16d.json",
+					"name" : "vectorization-linpackc-benchmark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vectorization-matrix-benchmark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vectorization-matrix-benchmark-RELEASE-91a89887796702196015.json",
+					"name" : "vectorization-matrix-benchmark",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sym/buddy-benchmark/benchmarks/Vectorization/build",
+		"source" : "/home/sym/buddy-benchmark/benchmarks/Vectorization"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

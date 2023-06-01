@@ -1,0 +1,834 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.2.12-1-default - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/3.26.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-Io2TJr"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-Io2TJr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-Io2TJr
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_e7107 && [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-suse-linux
+        Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,ada,go,d,jit,m2 --enable-offload-targets=nvptx-none,amdgcn-amdhsa, --enable-offload-defaulted --without-cuda-driver --enable-host-shared --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/13 --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --enable-ssp --disable-libssp --disable-libvtv --enable-cet=auto --disable-libcc1 --enable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-libphobos --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-13 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --with-build-config=bootstrap-lto-lean --enable-link-serialization --build=x86_64-suse-linux --host=x86_64-suse-linux
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.0.1 20230421 (prerelease) [revision f980561c60b0446cc427595198d7f3f4f90e0924] (SUSE Linux) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7107.dir/'
+         /usr/lib64/gcc/x86_64-suse-linux/13/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e7107.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccVtWNuv.s
+        GNU C++17 (SUSE Linux) version 13.0.1 20230421 (prerelease) [revision f980561c60b0446cc427595198d7f3f4f90e0924] (x86_64-suse-linux)
+        	compiled by GNU C version 13.0.1 20230421 (prerelease) [revision f980561c60b0446cc427595198d7f3f4f90e0924], GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/c++/13/x86_64-suse-linux
+         /usr/include/c++/13/backward
+         /usr/lib64/gcc/x86_64-suse-linux/13/include
+         /usr/local/include
+         /usr/lib64/gcc/x86_64-suse-linux/13/include-fixed
+         /usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 00000000000000000000000000000000
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7107.dir/'
+         /usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/bin/as -v --64 -o CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVtWNuv.s
+        GNU assembler version 2.40.0 (x86_64-suse-linux) using BFD version (GNU Binutils; openSUSE Tumbleweed) 2.40.0.20230412-4
+        COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/bin/
+        LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e7107   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-suse-linux
+        Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,ada,go,d,jit,m2 --enable-offload-targets=nvptx-none,amdgcn-amdhsa, --enable-offload-defaulted --without-cuda-driver --enable-host-shared --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/13 --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --enable-ssp --disable-libssp --disable-libvtv --enable-cet=auto --disable-libcc1 --enable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-libphobos --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-13 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --with-build-config=bootstrap-lto-lean --enable-link-serialization --build=x86_64-suse-linux --host=x86_64-suse-linux
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.0.1 20230421 (prerelease) [revision f980561c60b0446cc427595198d7f3f4f90e0924] (SUSE Linux) 
+        COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/bin/
+        LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7107' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7107.'
+         /usr/lib64/gcc/x86_64-suse-linux/13/collect2 -plugin /usr/lib64/gcc/x86_64-suse-linux/13/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Z3f3F.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e7107 /usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/13/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/13 -L/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/13/../../.. CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/13/crtend.o /usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7107' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7107.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/c++/13/x86_64-suse-linux]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib64/gcc/x86_64-suse-linux/13/include]
+          add: [/usr/local/include]
+          add: [/usr/lib64/gcc/x86_64-suse-linux/13/include-fixed]
+          add: [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/c++/13/x86_64-suse-linux] ==> [/usr/include/c++/13/x86_64-suse-linux]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib64/gcc/x86_64-suse-linux/13/include] ==> [/usr/lib64/gcc/x86_64-suse-linux/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib64/gcc/x86_64-suse-linux/13/include-fixed] ==> [/usr/lib64/gcc/x86_64-suse-linux/13/include-fixed]
+        collapse include dir [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/include] ==> [/usr/x86_64-suse-linux/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/c++/13/x86_64-suse-linux;/usr/include/c++/13/backward;/usr/lib64/gcc/x86_64-suse-linux/13/include;/usr/local/include;/usr/lib64/gcc/x86_64-suse-linux/13/include-fixed;/usr/x86_64-suse-linux/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-Io2TJr]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/ninja -v cmTC_e7107 && [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-suse-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c c++ objc fortran obj-c++ ada go d jit m2 --enable-offload-targets=nvptx-none amdgcn-amdhsa  --enable-offload-defaulted --without-cuda-driver --enable-host-shared --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/13 --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --enable-ssp --disable-libssp --disable-libvtv --enable-cet=auto --disable-libcc1 --enable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-libphobos --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-13 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --with-build-config=bootstrap-lto-lean --enable-link-serialization --build=x86_64-suse-linux --host=x86_64-suse-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.0.1 20230421 (prerelease) [revision f980561c60b0446cc427595198d7f3f4f90e0924] (SUSE Linux) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7107.dir/']
+        ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/13/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e7107.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccVtWNuv.s]
+        ignore line: [GNU C++17 (SUSE Linux) version 13.0.1 20230421 (prerelease) [revision f980561c60b0446cc427595198d7f3f4f90e0924] (x86_64-suse-linux)]
+        ignore line: [	compiled by GNU C version 13.0.1 20230421 (prerelease) [revision f980561c60b0446cc427595198d7f3f4f90e0924]  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/c++/13/x86_64-suse-linux]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/13/include-fixed]
+        ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 00000000000000000000000000000000]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7107.dir/']
+        ignore line: [ /usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/bin/as -v --64 -o CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVtWNuv.s]
+        ignore line: [GNU assembler version 2.40.0 (x86_64-suse-linux) using BFD version (GNU Binutils]
+        ignore line: [ openSUSE Tumbleweed) 2.40.0.20230412-4]
+        ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e7107   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-suse-linux]
+        ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c c++ objc fortran obj-c++ ada go d jit m2 --enable-offload-targets=nvptx-none amdgcn-amdhsa  --enable-offload-defaulted --without-cuda-driver --enable-host-shared --enable-checking=release --disable-werror --with-gxx-include-dir=/usr/include/c++/13 --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --enable-ssp --disable-libssp --disable-libvtv --enable-cet=auto --disable-libcc1 --enable-plugin --with-bugurl=https://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --with-slibdir=/lib64 --with-system-zlib --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-libphobos --enable-version-specific-runtime-libs --with-gcc-major-version-only --enable-linker-build-id --enable-linux-futex --enable-gnu-indirect-function --program-suffix=-13 --without-system-libunwind --enable-multilib --with-arch-32=x86-64 --with-tune=generic --with-build-config=bootstrap-lto-lean --enable-link-serialization --build=x86_64-suse-linux --host=x86_64-suse-linux]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.0.1 20230421 (prerelease) [revision f980561c60b0446cc427595198d7f3f4f90e0924] (SUSE Linux) ]
+        ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/bin/]
+        ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/13/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e7107' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7107.']
+        link line: [ /usr/lib64/gcc/x86_64-suse-linux/13/collect2 -plugin /usr/lib64/gcc/x86_64-suse-linux/13/liblto_plugin.so -plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Z3f3F.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e7107 /usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/13/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/13 -L/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/13/../../.. CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/13/crtend.o /usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crtn.o]
+          arg [/usr/lib64/gcc/x86_64-suse-linux/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib64/gcc/x86_64-suse-linux/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib64/gcc/x86_64-suse-linux/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc3Z3f3F.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_e7107] ==> ignore
+          arg [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crt1.o] ==> obj [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crt1.o]
+          arg [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crti.o] ==> obj [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crti.o]
+          arg [/usr/lib64/gcc/x86_64-suse-linux/13/crtbegin.o] ==> obj [/usr/lib64/gcc/x86_64-suse-linux/13/crtbegin.o]
+          arg [-L/usr/lib64/gcc/x86_64-suse-linux/13] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/13]
+          arg [-L/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib]
+          arg [-L/usr/lib64/gcc/x86_64-suse-linux/13/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/13/../../..]
+          arg [CMakeFiles/cmTC_e7107.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib64/gcc/x86_64-suse-linux/13/crtend.o] ==> obj [/usr/lib64/gcc/x86_64-suse-linux/13/crtend.o]
+          arg [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crtn.o] ==> obj [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crtn.o]
+        collapse obj [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/13] ==> [/usr/lib64/gcc/x86_64-suse-linux/13]
+        collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/13/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+        collapse library dir [/usr/lib64/gcc/x86_64-suse-linux/13/../../..] ==> [/usr/lib64]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib64/gcc/x86_64-suse-linux/13/crtbegin.o;/usr/lib64/gcc/x86_64-suse-linux/13/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/13;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:154 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_STD_CXX11"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-X73BIa"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-X73BIa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_STD_CXX11"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-X73BIa
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_d816e && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_STD_CXX11  -std=c++11   -std=c++11 -o CMakeFiles/cmTC_d816e.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-X73BIa/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  CMakeFiles/cmTC_d816e.dir/src.cxx.o -o cmTC_d816e   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:160 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WALL"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-cg9hTF"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-cg9hTF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WALL"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-cg9hTF
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_4b5e2 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -std=c++11  -Wall   -Wall -o CMakeFiles/cmTC_4b5e2.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-cg9hTF/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  CMakeFiles/cmTC_4b5e2.dir/src.cxx.o -o cmTC_4b5e2   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:161 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-pF16zk"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-pF16zk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-pF16zk
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_22425 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -std=c++11  -Wall  -Wextra   -Wextra -o CMakeFiles/cmTC_22425.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-pF16zk/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  CMakeFiles/cmTC_22425.dir/src.cxx.o -o cmTC_22425   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:162 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHADOW"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-9K4Ogq"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-9K4Ogq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHADOW"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-9K4Ogq
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_fdab4 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -std=c++11  -Wall  -Wextra  -Wshadow   -Wshadow -o CMakeFiles/cmTC_fdab4.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-9K4Ogq/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  CMakeFiles/cmTC_fdab4.dir/src.cxx.o -o cmTC_fdab4   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:163 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WERROR"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-UhQ3uw"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-UhQ3uw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-UhQ3uw
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_f6f2b && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -std=c++11  -Wall  -Wextra  -Wshadow  -Werror   -Werror -o CMakeFiles/cmTC_f6f2b.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-UhQ3uw/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Werror  CMakeFiles/cmTC_f6f2b.dir/src.cxx.o -o cmTC_f6f2b   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:168 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-qO8Ulh"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-qO8Ulh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-qO8Ulh
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_b8e57 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override   -Wsuggest-override -o CMakeFiles/cmTC_b8e57.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-qO8Ulh/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  CMakeFiles/cmTC_b8e57.dir/src.cxx.o -o cmTC_b8e57   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:170 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-6WBy2z"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-6WBy2z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-6WBy2z
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_1621b && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic   -pedantic -o CMakeFiles/cmTC_1621b.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-6WBy2z/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  CMakeFiles/cmTC_1621b.dir/src.cxx.o -o cmTC_1621b   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:171 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-24kepG"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-24kepG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-24kepG
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_6322b && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors   -pedantic-errors -o CMakeFiles/cmTC_6322b.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-24kepG/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  CMakeFiles/cmTC_6322b.dir/src.cxx.o -o cmTC_6322b   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:172 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-XZOqU7"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-XZOqU7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-XZOqU7
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_24648 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_24648.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-XZOqU7/src.cxx
+        FAILED: CMakeFiles/cmTC_24648.dir/src.cxx.o 
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32   -Wshorten-64-to-32 -o CMakeFiles/cmTC_24648.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-XZOqU7/src.cxx
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:173 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-yVFgGr"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-yVFgGr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-yVFgGr
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_d2926 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing   -fstrict-aliasing -o CMakeFiles/cmTC_d2926.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-yVFgGr/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  CMakeFiles/cmTC_d2926.dir/src.cxx.o -o cmTC_d2926   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-6mNmvJ"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-6mNmvJ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-6mNmvJ
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_03cc9 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations   -Wno-deprecated-declarations -o CMakeFiles/cmTC_03cc9.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-6mNmvJ/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  CMakeFiles/cmTC_03cc9.dir/src.cxx.o -o cmTC_03cc9   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:184 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-SKVVRh"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-SKVVRh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-SKVVRh
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_16fd5 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated   -Wno-deprecated -o CMakeFiles/cmTC_16fd5.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-SKVVRh/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  CMakeFiles/cmTC_16fd5.dir/src.cxx.o -o cmTC_16fd5   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:193 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-Z2TXw5"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-Z2TXw5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-Z2TXw5
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_5919f && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing   -Wstrict-aliasing -o CMakeFiles/cmTC_5919f.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-Z2TXw5/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_5919f.dir/src.cxx.o -o cmTC_5919f   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:198 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-50kqFk"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-50kqFk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-50kqFk
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_dca16 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654   -wd654 -o CMakeFiles/cmTC_dca16.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-50kqFk/src.cxx
+        FAILED: CMakeFiles/cmTC_dca16.dir/src.cxx.o 
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -wd654   -wd654 -o CMakeFiles/cmTC_dca16.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-50kqFk/src.cxx
+        c++: error: unrecognized command-line option '-wd654'
+        c++: error: unrecognized command-line option '-wd654'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:199 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-uFXvtE"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-uFXvtE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-uFXvtE
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_961cf && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_961cf.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-uFXvtE/src.cxx
+        FAILED: CMakeFiles/cmTC_961cf.dir/src.cxx.o 
+        /usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  -Wthread-safety   -Wthread-safety -o CMakeFiles/cmTC_961cf.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-uFXvtE/src.cxx
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        c++: error: unrecognized command-line option '-Wthread-safety'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:250 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-OjdbFG"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-OjdbFG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-OjdbFG
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_e53a2 && [1/2] /usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage   --coverage -o CMakeFiles/cmTC_e53a2.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-OjdbFG/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  --coverage  CMakeFiles/cmTC_e53a2.dir/src.cxx.o -o cmTC_e53a2   && :
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "CMakeLists.txt:279 (cxx_feature_check)"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_b4753 && [1/2] /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -o CMakeFiles/cmTC_b4753.dir/std_regex.cpp.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/std_regex.cpp
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_b4753.dir/std_regex.cpp.o -o cmTC_b4753   && :
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STD_REGEX"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "CMakeLists.txt:280 (cxx_feature_check)"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_GNU_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_10a4a && [1/2] /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -o CMakeFiles/cmTC_10a4a.dir/gnu_posix_regex.cpp.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/gnu_posix_regex.cpp
+        FAILED: CMakeFiles/cmTC_10a4a.dir/gnu_posix_regex.cpp.o 
+        /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -o CMakeFiles/cmTC_10a4a.dir/gnu_posix_regex.cpp.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/gnu_posix_regex.cpp
+        /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/gnu_posix_regex.cpp:1:10: 致命错误：gnuregex.h：没有那个文件或目录
+            1 | #include <gnuregex.h>
+              |          ^~~~~~~~~~~~
+        编译中断。
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "RUN_HAVE_GNU_POSIX_REGEX"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "CMakeLists.txt:281 (cxx_feature_check)"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_e68cd && [1/2] /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -o CMakeFiles/cmTC_e68cd.dir/posix_regex.cpp.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/posix_regex.cpp
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_e68cd.dir/posix_regex.cpp.o -o cmTC_e68cd   && :
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_POSIX_REGEX"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/CXXFeatureCheck.cmake:51 (try_run)"
+      - "CMakeLists.txt:290 (cxx_feature_check)"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "COMPILE_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_78e85 && [1/2] /usr/bin/c++   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -o CMakeFiles/cmTC_78e85.dir/steady_clock.cpp.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/steady_clock.cpp
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_78e85.dir/steady_clock.cpp.o -o cmTC_78e85   && :
+        
+      exitCode: 0
+    runResult:
+      variable: "RUN_HAVE_STEADY_CLOCK"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:293 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-jfadNa"
+      binary: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-jfadNa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake/Modules;/home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-jfadNa
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_58cac && [1/2] /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -o CMakeFiles/cmTC_58cac.dir/src.cxx.o -c /home/sym/buddy-benchmark/build/vendor/benchmark/src/project_googlebenchmark-build/CMakeFiles/CMakeScratch/TryCompile-jfadNa/src.cxx
+        [2/2] : && /usr/bin/c++ -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing  CMakeFiles/cmTC_58cac.dir/src.cxx.o -o cmTC_58cac   && :
+        
+      exitCode: 0
+...
