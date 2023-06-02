@@ -145,19 +145,19 @@
 },
 {
   "directory": "/home/sym/buddy-benchmark/benchmarks",
-  "command": "/usr/bin/c++ -I/home/sym/buddy-mlir/build/cmake/../../frontend/Interfaces -I/home/sym/buddy-mlir/frontend/Interfaces -isystem /home/sym/buddy-benchmark/benchmarks/vendor/benchmark/include -no-pie -g -std=gnu++17 -o benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/Main.cpp.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/Main.cpp",
+  "command": "/usr/bin/c++ -I/home/sym/buddy-mlir/build/cmake/../../frontend/Interfaces -I/home/sym/buddy-mlir/build/../llvm/build/bin/frontend/Interfaces -I/home/sym/buddy-benchmark/vendor/benchmark/include/benchmark -I/home/sym/buddy-mlir/build/../llvm/build/bin/../frontend/Interfaces/buddy/Core -isystem /home/sym/buddy-benchmark/benchmarks/vendor/benchmark/include -no-pie -g -std=gnu++17 -o benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/Main.cpp.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/Main.cpp",
   "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/Main.cpp",
   "output": "benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/Main.cpp.o"
 },
 {
   "directory": "/home/sym/buddy-benchmark/benchmarks",
-  "command": "/usr/bin/c++ -I/home/sym/buddy-mlir/build/cmake/../../frontend/Interfaces -I/home/sym/buddy-mlir/frontend/Interfaces -isystem /home/sym/buddy-benchmark/benchmarks/vendor/benchmark/include -no-pie -g -std=gnu++17 -o benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackCDaxpyBenchmark.cpp.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackCDaxpyBenchmark.cpp",
+  "command": "/usr/bin/c++ -I/home/sym/buddy-mlir/build/cmake/../../frontend/Interfaces -I/home/sym/buddy-mlir/build/../llvm/build/bin/frontend/Interfaces -I/home/sym/buddy-benchmark/vendor/benchmark/include/benchmark -I/home/sym/buddy-mlir/build/../llvm/build/bin/../frontend/Interfaces/buddy/Core -isystem /home/sym/buddy-benchmark/benchmarks/vendor/benchmark/include -no-pie -g -std=gnu++17 -o benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackCDaxpyBenchmark.cpp.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackCDaxpyBenchmark.cpp",
   "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackCDaxpyBenchmark.cpp",
   "output": "benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackCDaxpyBenchmark.cpp.o"
 },
 {
   "directory": "/home/sym/buddy-benchmark/benchmarks",
-  "command": "/usr/bin/c++ -I/home/sym/buddy-mlir/build/cmake/../../frontend/Interfaces -I/home/sym/buddy-mlir/frontend/Interfaces -isystem /home/sym/buddy-benchmark/benchmarks/vendor/benchmark/include -no-pie -g -std=gnu++17 -o benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackMatgenBenchmark.cpp.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackMatgenBenchmark.cpp",
+  "command": "/usr/bin/c++ -I/home/sym/buddy-mlir/build/cmake/../../frontend/Interfaces -I/home/sym/buddy-mlir/build/../llvm/build/bin/frontend/Interfaces -I/home/sym/buddy-benchmark/vendor/benchmark/include/benchmark -I/home/sym/buddy-mlir/build/../llvm/build/bin/../frontend/Interfaces/buddy/Core -isystem /home/sym/buddy-benchmark/benchmarks/vendor/benchmark/include -no-pie -g -std=gnu++17 -o benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackMatgenBenchmark.cpp.o -c /home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackMatgenBenchmark.cpp",
   "file": "/home/sym/buddy-benchmark/benchmarks/Vectorization/linpackc/MLIRLinpackMatgenBenchmark.cpp",
   "output": "benchmarks/Vectorization/linpackc/CMakeFiles/vectorization-linpackc-benchmark.dir/MLIRLinpackMatgenBenchmark.cpp.o"
 }

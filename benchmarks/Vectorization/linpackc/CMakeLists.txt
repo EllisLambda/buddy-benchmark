@@ -2,8 +2,9 @@
 # MLIR SCF Dialect linpackc Operation + Upstream Lowering Passes
 #-------------------------------------------------------------------------------
 
-include_directories("/home/sym/buddy-mlir/frontend/Interfaces/")
-link_directories("/home/sym/buddy-benchmark/build")
+include_directories("${LLVM_MLIR_BINARY_DIR}/frontend/Interfaces/")
+include_directories("${BUDDY_SOURCE_DIR}/vendor/benchmark/include/benchmark")
+link_directories("${BUDDY_SOURCE_DIR}/build")
 
 add_custom_command(OUTPUT mlir-linpackcdaxpyrollf32.o
   COMMAND ${LLVM_MLIR_BINARY_DIR}/mlir-opt

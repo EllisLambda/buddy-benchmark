@@ -18,8 +18,8 @@
 //
 //===----------------------------------------------------------------------===//
 
-#include </home/sym/buddy-benchmark/build/vendor/benchmark/include/benchmark/benchmark.h>
-#include </home/sym/buddy-mlir/frontend/Interfaces/buddy/Core/Container.h>
+#include <benchmark.h>
+#include <Container.h>
 #include <iostream>
 
 // Declare the linpackcdaxpy C interface.

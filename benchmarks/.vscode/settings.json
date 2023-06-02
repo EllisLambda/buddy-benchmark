@@ -2,5 +2,9 @@
     "clangd.fallbackFlags": [
         "-I/home/sym/buddy-mlir/cmake/../../frontend/Interfaces",
         "-isystem /home/sym/buddy-benchmark/benchmarks/vendor/benchmark/include"
-    ]
+    ],
+    "lldb.displayFormat": "auto",
+    "lldb.showDisassembly": "always",
+    "lldb.dereferencePointers": true,
+    "lldb.consoleMode": "commands"
 }
